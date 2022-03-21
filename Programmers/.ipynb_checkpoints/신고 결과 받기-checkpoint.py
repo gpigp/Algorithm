@@ -15,5 +15,4 @@ def solution(id_list, report, k):
             # 신고한 몇명의 유저가 정지 당한지 기록
             answer[id_list.index(r.split()[0])] += 1
         
-                
     return answer
