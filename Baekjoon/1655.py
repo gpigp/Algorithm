@@ -40,3 +40,5 @@ for i in range(n):
         heapq.heappush(lh, -rh_v)
         heapq.heappush(rh, -lh_v)
     print(-lh[0])
+    
+    
