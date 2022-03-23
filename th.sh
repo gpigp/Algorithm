@@ -1,6 +1,6 @@
 #!/bin/bash
 
-today=$(date "+%y-%m-%-d")
+today=$(date "+%y.%m.%.d")
 
 git add *
 git commit -m "${today}"
