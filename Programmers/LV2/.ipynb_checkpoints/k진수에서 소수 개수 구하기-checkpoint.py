@@ -48,3 +48,21 @@ def solution(n, k):
                     answer += 1
             
     return answer
+
+# 다른 사람 풀이
+def sol2(n, k):
+    num = ""
+    answer = 0
+    
+    while n > 0:
+        num += str(n%k)
+        n = n//k
+    num = num[::-1]
+    
+    for i in num.split("0"):
+        if i == "":           ## if not i: 로 대체 가능
+            pass
+        elif dec(int(i)):
+            answer += 1
+    
+    return answer
