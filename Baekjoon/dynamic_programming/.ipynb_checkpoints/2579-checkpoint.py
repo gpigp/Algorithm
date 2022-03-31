@@ -1,12 +1,12 @@
 import sys
-input = sys.stdin.readline
+input = lambda : sys.stdin.readline().rstrip()
 n = int(input())
-score = [0]
-for i in range(n): 
-    score.append(int(input()))
+s = [int(input()) for _ in range(n)]
+dp = [0 for _ in range(n)]
+dp[0] = s[0]
+dp[1] = s[0]+s[1]
+dp[2] = max(s[0]+s[2], s[1]+s[2])
 
-answer = score[-1]
-for i in range(n-3, -1, -1):
-    answer += score[i]+ max(score[i+1], score[i+2])
-
-print(answer)
+for i in range(3, n):
+    dp[i] = max(dp[i-3]+s[i]+s[i-1], dp[i-2]+s[i])
+print(dp[-1])
