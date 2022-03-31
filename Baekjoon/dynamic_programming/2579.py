@@ -10,6 +10,8 @@ if n > 3:
 
     for i in range(3, n):
         dp[i] = max(dp[i-3]+s[i]+s[i-1], dp[i-2]+s[i])
+        
+# n이 3 이하일때도 충족해야함
 else:
     if n == 3:
         dp[0] = s[0]
