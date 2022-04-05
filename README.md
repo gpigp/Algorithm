@@ -8,7 +8,7 @@
 
 | Web | myLink                          |
 | :--: | :--------------------------: |
-| 백준           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[❤️](https://www.acmicpc.net/) | [🤍](./Baekjoon) |
+| 백준           "&nbsp; &nbsp; ""&nbsp; &nbsp; "[❤️](https://www.acmicpc.net/) | [🤍](./Baekjoon) |
 | 프로그래머스   [❤️](https://programmers.co.kr/) | [🤍](./Programmers) |
   
 </div>
