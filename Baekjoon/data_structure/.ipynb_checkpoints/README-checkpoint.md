@@ -1,7 +1,7 @@
 # Data Structre (자료구조)
 
 tony9402님의 백준 문제집을 참고하였습니다.
-<br>
+<hr>
 (https://github.com/tony9402/baekjoon)
 
 <br>
