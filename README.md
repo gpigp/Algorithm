@@ -8,7 +8,7 @@
 
 
 ### 아래는 tony9402 님의 백준 문제집을 참고하였습니다.
-#### 링크 (https://github.com/tony9402/baekjoon)
+#### tony9402 (https://github.com/tony9402/baekjoon)
 <hr>
 
 | 순번 | Tag                          | 태그                | 문제집    | 추천 문제 수 | 총 문제 수 |  상태             |
