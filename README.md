@@ -6,9 +6,9 @@
 
 <hr>
 
-| Web | Link                          |
+| Web | myLink                          |
 | :--: | :--------------------------: |
-| 백준 | [Bae/<joon](./Baekjoon) |
-| 프로그래머스 | [Programmers](./Programmers) |
+| [백준](https://www.acmicpc.net/) | [gpigp's Baekjoon Prob](./Baekjoon) |
+| [프로그래머스](https://programmers.co.kr/) | [gpigp's Programmers Prob](./Programmers) |
   
 </div>
