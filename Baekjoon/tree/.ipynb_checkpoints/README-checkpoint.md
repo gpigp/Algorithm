@@ -1,8 +1,8 @@
-# Data Structre (자료구조)
+# Tree (트리)
 
 tony9402님의 백준 문제집을 참고하였습니다.
 <hr>
-(https://github.com/tony9402/baekjoon)
+(https://github.com/tony9402/baekjoon/tree/main/tree)
 
 <br>
 
