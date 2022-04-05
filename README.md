@@ -8,7 +8,7 @@
 
 | Web | Link                          |
 | :--: | :--------------------------: |
-| 백준 | [Bakejoon](./Baekjoon) |
+| 백준 | [Bae/<joon>](./Baekjoon) |
 | 프로그래머스 | [Programmers](./Programmers) |
   
 </div>
