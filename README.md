@@ -8,7 +8,7 @@
 
 | Web | myLink                          |
 | :--: | :--------------------------: |
-| [백준](https://www.acmicpc.net/) | [Taehyun's Baekjoon Prob](./Baekjoon) |
-| [프로그래머스](https://programmers.co.kr/) | [Taehyun's Programmers Prob](./Programmers) |
+| [백준](https://www.acmicpc.net/) | Taehyun's Baekjoon Prob [:heavy_check_mark:](./Baekjoon) |
+| [프로그래머스](https://programmers.co.kr/) | Taehyun's Programmers Prob [:heavy_check_mark:](./Programmers) |
   
 </div>
