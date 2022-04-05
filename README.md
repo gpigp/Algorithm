@@ -15,8 +15,8 @@
 | 순번 | Tag                          | 태그                | 문제집    | 추천 문제 수 | 총 문제 수 |
 | :--: | :--------------------------: | :-----------------: | :------:  | :---------:  | :------: |
 | 00 | Data Structure | 자료구조 | [바로가기](./Baekjoon/data_structure) | 16 | 25 |
-| 01 | Data Structure 2 | 자료구조 2 | [바로가기](./data_structure2) | 11 | 21 |
-| 02 | Tree | 트리 | [바로가기](./tree) | 15 | 44 |
+| 01 | Data Structure 2 | 자료구조 2 | [바로가기](./Baekjoon/data_structure2) | 11 | 21 |
+| 02 | Tree | 트리 | [바로가기](./Baekjoon/tree) | 15 | 44 |
 <!-- | 03 | Math | 수학 | [바로가기](./math) | 18 | 29 |
 | 04 | Greedy | 탐욕법 | [바로가기](./greedy) | 27 | 62 |
 | 05 | Dynamic Programming 1 | 동적계획법 1 | [바로가기](./dynamic_programming_1) | 27 | 80 |
