@@ -8,7 +8,7 @@
 
 | Web | Link                          |
 | :--: | :--------------------------: |
-| 백준 | https://github.com/gpigp/Algorithm/tree/main/Baekjoon |
-| 프로그래머스 | https://github.com/gpigp/Algorithm/tree/main/Programmers |
+| 백준 | [Bakejoon](./Baekjoon) |
+| 프로그래머스 | [Programmers](./Programmers) |
   
 </div>
