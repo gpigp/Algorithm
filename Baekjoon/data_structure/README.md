@@ -3,8 +3,10 @@
 tony9402님의 백준 문제집을 참고하였습니다.
 <br>
 (https://github.com/tony9402/baekjoon)
+
 <br>
-풀어본 문제는 체크(:heavy_check_mark:) 해놨습니다.
+
+풀어본 문제는 체크(:heavy_check_mark:)
 
 <br>
 
