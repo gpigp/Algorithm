@@ -2,7 +2,7 @@
 
 tony9402님의 백준 문제집을 참고하였습니다.
 <hr>
-(https://github.com/tony9402/baekjoon)
+(https://github.com/tony9402/baekjoon/tree/main/data_structure)
 
 <br>
 
