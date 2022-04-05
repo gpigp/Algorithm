@@ -4,9 +4,9 @@
   
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=rlaxogus505)](https://solved.ac/rlaxogus505/)
     
-| Web Site | Link                          |
+| Web | Link                          |
 | :--: | :--------------------------: |
-| :백준: | :https://github.com/gpigp/Algorithm/tree/main/Baekjoon: |
-| :프로그래머스: | :https://github.com/gpigp/Algorithm/tree/main/Programmers: |
+| 백준 | https://github.com/gpigp/Algorithm/tree/main/Baekjoon |
+| 프로그래머스 | https://github.com/gpigp/Algorithm/tree/main/Programmers |
   
 </div>
