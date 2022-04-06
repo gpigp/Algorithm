@@ -30,4 +30,3 @@ print()
 inorder('A')
 print()
 postorder('A')
-        
