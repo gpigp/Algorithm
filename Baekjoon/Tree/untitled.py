@@ -2,12 +2,12 @@ import sys
 from collections import defaultdict
 input = lambda : sys.stdin.readline().rstrip()
 
-# 비어있거나, 방향이 존재
+# 답이 틀렸고, 어떤 test case에서 오류가 나는지 모르겠음.
 tree = defaultdict()
 k = 1
 while True:
     line = list(map(int, input().split()))
-    if len(line) > 0 and line[-1] == -1:
+    if len(line) > 0 and line[-1] < 0:
         break
         
     for node in line:
