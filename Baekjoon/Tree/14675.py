@@ -13,7 +13,6 @@ for _ in range(N-1):
 q = int(input())
 for _ in range(q):
     t, k = map(int, input().split())
-    dict_2 = dict_.copy()
     if t == 1:
         if len(dict_[k]) == 1:
             print("no")
