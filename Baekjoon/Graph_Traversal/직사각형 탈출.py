@@ -1,10 +1,55 @@
-import sys
 from collections import deque
+from sys import stdin
+input = stdin.readline
 
-input = lambda : sys.stdin.readline().rstrip()
-square = deque()
 N, M = map(int, input().split())
+graph = []
+for _ in range(N):
+    graph.append(list(map(int, input().split())))
+H, W, Sr, Sc, Fr, Fc = map(int, input().split())
+visited = [[False] * M for _ in range(N)]
 
-for _ in range(M):
-    square.append(map(int, input().split()))
-print(square[0])
+dy = [-1, 1, 0, 0]
+dx = [0, 0, -1, 1]
+
+# 시간초과를 막기 위해 미리 벽을 저장해둔다.
+walls = []
+for i in range(N):
+    for j in range(M):
+        if graph[i][j] == 1:
+            walls.append((i, j))
+
+# 저장해둔 벽이 직사각형 범위 내에 있다면 False를 반환
+def check(i, j):
+    for w_row, w_col in walls:
+        if i <= w_row < i+H and j <= w_col < j+W:
+            return False
+    return True
+
+
+def bfs():
+    q = deque()
+    q.append((Sr - 1, Sc - 1, 0))
+
+    while q:
+        y, x, cnt = q.popleft()
+        visited[y][x] = True
+
+        if y == Fr-1 and x == Fc-1:
+            print(cnt)
+            return
+
+        for l in range(4):
+            yy = dy[l] + y
+            xx = dx[l] + x
+            # 직사각형 범위계산
+            if 0 <= yy < N and 0 <= xx < M and 0 <= yy + H - 1 < N and 0 <= xx + W - 1 < M:
+                if not visited[yy][xx]:
+                    if check(yy, xx):
+                        visited[yy][xx] = True
+                        q.append((yy, xx, cnt+1))
+
+    print(-1)
+    return
+
+bfs()
